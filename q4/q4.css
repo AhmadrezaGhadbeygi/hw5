@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  position: relative;
+}
+.btn {
+  font-size: 22px;
+  padding: 5px 15px;
+}
+
+.show{
+  visibility: hidden;
+  font-size: 28px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 300px;
+  border: 3px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: rgb(38, 110, 38);
+  background-image: linear-gradient(
+    to right,
+    rgb(38, 110, 38),
+    rgb(15, 210, 18)
+  );
+  border-radius: 5px;
+  z-index: 1;
+}
